@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA17F45E1EAF809700A9C7B5 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA17F45D1EAF809700A9C7B5 /* win.wav */; };
+		CA17F4601EAF80A700A9C7B5 /* woohoo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA17F45F1EAF80A700A9C7B5 /* woohoo.mp3 */; };
+		CA17F4621EAF80B500A9C7B5 /* yoohoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA17F4611EAF80B500A9C7B5 /* yoohoo.wav */; };
+		CA17F4641EAF80C900A9C7B5 /* hooraay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA17F4631EAF80C900A9C7B5 /* hooraay.mp3 */; };
+		CA17F4661EAF80ED00A9C7B5 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA17F4651EAF80ED00A9C7B5 /* lose.wav */; };
+		CA17F4681EAF813400A9C7B5 /* bad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA17F4671EAF813400A9C7B5 /* bad.mp3 */; };
 		CA7B0F561E632788009F24B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7B0F551E632788009F24B8 /* AppDelegate.swift */; };
 		CA7B0F581E632788009F24B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7B0F571E632788009F24B8 /* ViewController.swift */; };
-		CA7B0F5B1E632788009F24B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7B0F591E632788009F24B8 /* Main.storyboard */; };
 		CA7B0F5E1E632788009F24B8 /* HowLucky.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA7B0F5C1E632788009F24B8 /* HowLucky.xcdatamodeld */; };
 		CA7B0F601E632788009F24B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7B0F5F1E632788009F24B8 /* Assets.xcassets */; };
 		CA7B0F631E632788009F24B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7B0F611E632788009F24B8 /* LaunchScreen.storyboard */; };
 		CA7B0F6E1E632788009F24B8 /* HowLuckyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7B0F6D1E632788009F24B8 /* HowLuckyTests.swift */; };
 		CA7B0F791E632788009F24B8 /* HowLuckyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7B0F781E632788009F24B8 /* HowLuckyUITests.swift */; };
+		CA7B0F881E632AE6009F24B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7B0F591E632788009F24B8 /* Main.storyboard */; };
+		CADCC59B1EAE7A6D00F9D396 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADCC59A1EAE7A6D00F9D396 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA17F45D1EAF809700A9C7B5 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		CA17F45F1EAF80A700A9C7B5 /* woohoo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woohoo.mp3; sourceTree = "<group>"; };
+		CA17F4611EAF80B500A9C7B5 /* yoohoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yoohoo.wav; sourceTree = "<group>"; };
+		CA17F4631EAF80C900A9C7B5 /* hooraay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hooraay.mp3; sourceTree = "<group>"; };
+		CA17F4651EAF80ED00A9C7B5 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
+		CA17F4671EAF813400A9C7B5 /* bad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bad.mp3; sourceTree = "<group>"; };
 		CA7B0F521E632788009F24B8 /* HowLucky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowLucky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7B0F551E632788009F24B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA7B0F571E632788009F24B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +62,8 @@
 		CA7B0F741E632788009F24B8 /* HowLuckyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowLuckyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7B0F781E632788009F24B8 /* HowLuckyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowLuckyUITests.swift; sourceTree = "<group>"; };
 		CA7B0F7A1E632788009F24B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7B0F871E632AE2009F24B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		CADCC59A1EAE7A6D00F9D396 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopUpViewController.swift; path = ../PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +117,14 @@
 				CA7B0F551E632788009F24B8 /* AppDelegate.swift */,
 				CA7B0F571E632788009F24B8 /* ViewController.swift */,
 				CA7B0F591E632788009F24B8 /* Main.storyboard */,
+				CADCC59A1EAE7A6D00F9D396 /* PopUpViewController.swift */,
 				CA7B0F5F1E632788009F24B8 /* Assets.xcassets */,
+				CA17F45D1EAF809700A9C7B5 /* win.wav */,
+				CA17F4671EAF813400A9C7B5 /* bad.mp3 */,
+				CA17F4651EAF80ED00A9C7B5 /* lose.wav */,
+				CA17F45F1EAF80A700A9C7B5 /* woohoo.mp3 */,
+				CA17F4631EAF80C900A9C7B5 /* hooraay.mp3 */,
+				CA17F4611EAF80B500A9C7B5 /* yoohoo.wav */,
 				CA7B0F611E632788009F24B8 /* LaunchScreen.storyboard */,
 				CA7B0F641E632788009F24B8 /* Info.plist */,
 				CA7B0F5C1E632788009F24B8 /* HowLucky.xcdatamodeld */,
@@ -196,6 +218,7 @@
 				TargetAttributes = {
 					CA7B0F511E632788009F24B8 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = J3MAH6V8AA;
 						ProvisioningStyle = Automatic;
 					};
 					CA7B0F681E632788009F24B8 = {
@@ -235,9 +258,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA7B0F881E632AE6009F24B8 /* Main.storyboard in Resources */,
+				CA17F45E1EAF809700A9C7B5 /* win.wav in Resources */,
+				CA17F4641EAF80C900A9C7B5 /* hooraay.mp3 in Resources */,
+				CA17F4681EAF813400A9C7B5 /* bad.mp3 in Resources */,
 				CA7B0F631E632788009F24B8 /* LaunchScreen.storyboard in Resources */,
 				CA7B0F601E632788009F24B8 /* Assets.xcassets in Resources */,
-				CA7B0F5B1E632788009F24B8 /* Main.storyboard in Resources */,
+				CA17F4601EAF80A700A9C7B5 /* woohoo.mp3 in Resources */,
+				CA17F4621EAF80B500A9C7B5 /* yoohoo.wav in Resources */,
+				CA17F4661EAF80ED00A9C7B5 /* lose.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +294,7 @@
 				CA7B0F581E632788009F24B8 /* ViewController.swift in Sources */,
 				CA7B0F561E632788009F24B8 /* AppDelegate.swift in Sources */,
 				CA7B0F5E1E632788009F24B8 /* HowLucky.xcdatamodeld in Sources */,
+				CADCC59B1EAE7A6D00F9D396 /* PopUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +334,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CA7B0F5A1E632788009F24B8 /* Base */,
+				CA7B0F871E632AE2009F24B8 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -418,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J3MAH6V8AA;
 				INFOPLIST_FILE = HowLucky/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hyperether.howlucky.HowLucky;
@@ -430,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J3MAH6V8AA;
 				INFOPLIST_FILE = HowLucky/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hyperether.howlucky.HowLucky;
@@ -511,6 +544,7 @@
 				CA7B0F7F1E632788009F24B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA7B0F801E632788009F24B8 /* Build configuration list for PBXNativeTarget "HowLuckyTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +553,7 @@
 				CA7B0F821E632788009F24B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA7B0F831E632788009F24B8 /* Build configuration list for PBXNativeTarget "HowLuckyUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +562,7 @@
 				CA7B0F851E632788009F24B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
