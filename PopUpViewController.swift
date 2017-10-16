@@ -40,5 +40,6 @@ class PopUpViewController: UIViewController {
 
     @IBAction func closePopUp(_ sender: Any) {
         self.view.removeFromSuperview()
+        exit(0)
     }
 }
