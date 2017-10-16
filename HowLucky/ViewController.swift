@@ -153,6 +153,28 @@ class ViewController: UIViewController {
         popUp.view.frame = self.view.frame
         self.view.addSubview(popUp.view)
         popUp.didMove(toParentViewController:self)
+        
+        switch type {
+        case 0:
+            popUp.imageView.image = UIImage(named: "clover")
+            break
+            
+        case 1:
+            popUp.imageView.image = UIImage(named: "horseshoe")
+            break
+            
+        case 2:
+            popUp.imageView.image = UIImage(named: "horseshoe")
+            break
+            
+        case 3:
+            popUp.imageView.image = UIImage(named: "rabbit")
+            break
+            
+        default:
+            popUp.imageView.image = UIImage(named: "clover")
+            break
+        }
     }
     
     func applicationWillResignActive(notification: NSNotification) {

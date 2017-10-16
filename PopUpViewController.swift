@@ -10,9 +10,10 @@ import UIKit
 
 class PopUpViewController: UIViewController {
 
-   
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textView: UITextView!
     var labelText:String = "";
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.black.withAlphaComponent(0.6)
